@@ -1,0 +1,7 @@
+                                  Df  Pillai approx F num Df den Df    Pr(>F)    
+fry$Before_after                   1 0.75361   4.5880     10     15 0.0041975 ** 
+fry$Case_control                   1 0.85322   8.7193     10     15 0.0001314 ***
+fry$Before_after:fry$Case_control  1 0.66869   3.0274     10     15 0.0260858 *  
+Residuals                         24                                             
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

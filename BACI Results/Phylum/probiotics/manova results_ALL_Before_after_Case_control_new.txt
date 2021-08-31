@@ -1,0 +1,88 @@
+ Response Actinobacteria :
+                                  Df  Sum Sq Mean Sq F value    Pr(>F)    
+fry$Before_after                   1 187.782 187.782  59.691 5.816e-08 ***
+fry$Case_control                   1 157.397 157.397  50.032 2.595e-07 ***
+fry$Before_after:fry$Case_control  1  81.834  81.834  26.013 3.225e-05 ***
+Residuals                         24  75.502   3.146                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response Coriobacteriia :
+                                  Df Sum Sq Mean Sq F value  Pr(>F)  
+fry$Before_after                   1 15.661 15.6611  4.2090 0.05127 .
+fry$Case_control                   1 11.555 11.5552  3.1055 0.09076 .
+fry$Before_after:fry$Case_control  1 11.284 11.2844  3.0328 0.09440 .
+Residuals                         24 89.300  3.7208                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response Bacilli :
+                                  Df  Sum Sq Mean Sq F value    Pr(>F)    
+fry$Before_after                   1 132.742 132.742 22.7570 7.445e-05 ***
+fry$Case_control                   1  36.266  36.266  6.2173   0.01994 *  
+fry$Before_after:fry$Case_control  1   0.702   0.702  0.1204   0.73164    
+Residuals                         24 139.993   5.833                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response Clostridia :
+                                  Df Sum Sq Mean Sq F value    Pr(>F)    
+fry$Before_after                   1 39.006  39.006 52.5537 1.724e-07 ***
+fry$Case_control                   1  0.038   0.038  0.0507    0.8238    
+fry$Before_after:fry$Case_control  1  0.305   0.305  0.4109    0.5276    
+Residuals                         24 17.813   0.742                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response Erysipelotrichi :
+                                  Df Sum Sq Mean Sq F value  Pr(>F)  
+fry$Before_after                   1 15.225 15.2249  3.6943 0.06655 .
+fry$Case_control                   1  0.293  0.2931  0.0711 0.79200  
+fry$Before_after:fry$Case_control  1  1.098  1.0979  0.2664 0.61047  
+Residuals                         24 98.908  4.1211                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response Alphaproteobacteria :
+                                  Df Sum Sq Mean Sq F value  Pr(>F)  
+fry$Before_after                   1  0.798  0.7978  0.5397 0.46969  
+fry$Case_control                   1 11.305 11.3045  7.6471 0.01076 *
+fry$Before_after:fry$Case_control  1  0.673  0.6732  0.4554 0.50623  
+Residuals                         24 35.479  1.4783                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response Betaproteobacteria :
+                                  Df Sum Sq Mean Sq F value   Pr(>F)   
+fry$Before_after                   1 14.055 14.0550  9.4632 0.005174 **
+fry$Case_control                   1 19.818 19.8175 13.3430 0.001260 **
+fry$Before_after:fry$Case_control  1 13.372 13.3724  9.0036 0.006197 **
+Residuals                         24 35.646  1.4852                    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response Deltaproteobacteria :
+                                  Df Sum Sq Mean Sq F value Pr(>F)
+fry$Before_after                   1  2.189 2.18870  1.0632 0.3128
+fry$Case_control                   1  0.030 0.02959  0.0144 0.9056
+fry$Before_after:fry$Case_control  1  0.316 0.31622  0.1536 0.6986
+Residuals                         24 49.406 2.05857               
+
+ Response Gammaproteobacteria :
+                                  Df Sum Sq Mean Sq F value    Pr(>F)    
+fry$Before_after                   1 14.277  14.277  6.0336 0.0216526 *  
+fry$Case_control                   1 35.901  35.901 15.1717 0.0006866 ***
+fry$Before_after:fry$Case_control  1  0.343   0.343  0.1449 0.7067596    
+Residuals                         24 56.791   2.366                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response Other :
+                                  Df Sum Sq Mean Sq F value    Pr(>F)    
+fry$Before_after                   1 59.274  59.274 24.9949 4.162e-05 ***
+fry$Case_control                   1 27.222  27.222 11.4792  0.002428 ** 
+fry$Before_after:fry$Case_control  1  0.255   0.255  0.1074  0.745917    
+Residuals                         24 56.915   2.371                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+

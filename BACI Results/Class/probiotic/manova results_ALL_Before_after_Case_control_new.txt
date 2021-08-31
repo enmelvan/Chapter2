@@ -1,0 +1,81 @@
+ Response Bifidobacteriales :
+                                  Df Sum Sq Mean Sq F value    Pr(>F)    
+fry$Before_after                   1 229.14 229.140  56.957 2.051e-08 ***
+fry$Case_control                   1 281.75 281.754  70.035 2.433e-09 ***
+fry$Before_after:fry$Case_control  1 107.33 107.334  26.680 1.461e-05 ***
+Residuals                         30 120.69   4.023                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response Coriobacteriales :
+                                  Df  Sum Sq Mean Sq F value  Pr(>F)  
+fry$Before_after                   1  17.693 17.6928  5.0859 0.03157 *
+fry$Case_control                   1  21.342 21.3424  6.1350 0.01911 *
+fry$Before_after:fry$Case_control  1  11.267 11.2667  3.2387 0.08198 .
+Residuals                         30 104.364  3.4788                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response Lactobacillales :
+                                  Df  Sum Sq Mean Sq F value    Pr(>F)    
+fry$Before_after                   1 142.055 142.055 20.4006 9.084e-05 ***
+fry$Case_control                   1  86.395  86.395 12.4072  0.001392 ** 
+fry$Before_after:fry$Case_control  1   3.597   3.597  0.5166  0.477857    
+Residuals                         30 208.899   6.963                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response Clostridiales :
+                                  Df Sum Sq Mean Sq F value    Pr(>F)    
+fry$Before_after                   1 51.262  51.262 25.3050 2.138e-05 ***
+fry$Case_control                   1  3.605   3.605  1.7795    0.1923    
+fry$Before_after:fry$Case_control  1  1.032   1.032  0.5095    0.4809    
+Residuals                         30 60.773   2.026                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response Erysipelotrichales :
+                                  Df  Sum Sq Mean Sq F value  Pr(>F)  
+fry$Before_after                   1  23.645 23.6450  6.1221 0.01923 *
+fry$Case_control                   1   1.801  1.8010  0.4663 0.49993  
+fry$Before_after:fry$Case_control  1   1.367  1.3674  0.3540 0.55629  
+Residuals                         30 115.867  3.8622                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response Burkholderiales :
+                                  Df Sum Sq Mean Sq F value   Pr(>F)    
+fry$Before_after                   1 24.216  24.216 12.0455 0.001596 ** 
+fry$Case_control                   1 39.174  39.174 19.4856 0.000121 ***
+fry$Before_after:fry$Case_control  1 19.673  19.673  9.7857 0.003894 ** 
+Residuals                         30 60.313   2.010                     
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response Desulfovibrionales :
+                                  Df Sum Sq Mean Sq F value Pr(>F)  
+fry$Before_after                   1  8.819  8.8188  3.4857 0.0717 .
+fry$Case_control                   1  0.102  0.1021  0.0403 0.8422  
+fry$Before_after:fry$Case_control  1  2.681  2.6815  1.0599 0.3115  
+Residuals                         30 75.900  2.5300                 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response Enterobacteriales :
+                                  Df Sum Sq Mean Sq F value    Pr(>F)    
+fry$Before_after                   1 17.705  17.705  7.8844 0.0086832 ** 
+fry$Case_control                   1 34.308  34.308 15.2778 0.0004905 ***
+fry$Before_after:fry$Case_control  1  0.219   0.219  0.0974 0.7570789    
+Residuals                         30 67.368   2.246                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+ Response Other :
+                                  Df Sum Sq Mean Sq F value    Pr(>F)    
+fry$Before_after                   1 45.878  45.878 18.2204 0.0001817 ***
+fry$Case_control                   1 11.693  11.693  4.6440 0.0393113 *  
+fry$Before_after:fry$Case_control  1  0.009   0.009  0.0037 0.9519378    
+Residuals                         30 75.538   2.518                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
